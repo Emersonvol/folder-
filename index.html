@@ -1,63 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="respa.css">
+    <link rel="stylesheet" href="./css/main.css">
+
     <title>Manda Trends</title>
 </head>
 
 <body>
-    <div class="fundoBranco"></div><!--Fundo branco-->
-    <div class="top"> <img src="./imagens/mulher.png" class="mulherNuvem" width="160"></div>
-    <!--Retangulo maior que fica no inicio-->
-    <img class="circulo" src="./imagens/vectorSmartObj.png">
-    <img class="logoMaiorTop" src="./imagens/MandaTrendsLogo.png">
-    <img class="bolas" src="./imagens/bolinhas.png">
-    <img class="setas" src="./imagens/setasParaDireita.png" width="60">
-    <img class="zigzag" src="./imagens/zigzag.png">
-    <img class="NRF2020" src="./imagens/nrf2020.png">
-    <img class="triagle" src="./imagens/triangle.png">
-    <section class="Parte-de-cima">
-        <p class="txtEvento">O maior evento sobre varejo do mundo mostrando as tendências, oportunidades e inovações
-            para o setor.</p>
-        <div>
-            <img src="./imagens/NRFVision.png" class="NRFvision" width="760"
-                alt="NRF 2020: Conheça os top 5 assuntos do evento.">
-            <h1 class="ftoEvento">NRF 2020: Conheça os top 5 assuntos do evento.</h1>
-            <p class="fonte3">Fonte: CMO ADOBE</p>
-            <div class="retanguloPequeno3"></div>
+    <header class="container-imgs">
+        <div class="container-grupo1">
+            <img class="container-imgs_circulo" src="./imagens/vectorSmartObj.png">
+            <img class="container-imgs_MandaTreds" src="./imagens/MandaTrendsLogo.png">
+            <img class="container-imgs_bolas" src="./imagens/bolinhas.png">
         </div>
+        <div class="container-grupo2">
+            <img class="container-imgs_mulherNuvem" src="./imagens/mulher.png">
+            <img class="container-imgs_setas" src="./imagens/setasParaDireita.png" width="60">
+        </div>
+        <div class="container-grupo3">
+            <img class="container-imgs_triagle" src="./imagens/triangle.png">
+            <img class="container-imgs_NRF2020" src="./imagens/nrf2020.png">
+            <img class="container-imgs_zigzag" src="./imagens/zigzag.png">
+        </div>
+    </header>
 
-    </section>
+    <main>
+        <section class="container-evento">
+            <figure>
+                <img src="./imagens/NRFVision.png" alt="NRF 2020: Conheça os top 5 assuntos do evento.">
+                <figcaption>
+                    <h2>NRF 2020: Conheça os top 5 assuntos do evento.</h2>
+                    <p>O maior evento sobre varejo do mundo mostrando as tendências, oportunidades e inovações para o
+                        setor.</p>
+                </figcaption>
+                <small>Fonte: CMO ADOBE</small>
+            </figure>
+        </section>
 
-    <section class="Meio">
-        <img src="./imagens/logoNBA.png" class="logoNBA" height="236" width="356" alt="Petição para colocar Kobe">
-        <h1 class="peticao">Petição para colocar Kobe <br>Bryant no logo da NBA.</h1>
-        <!--Texto que fica abaixo das imagens-->
-        <div class="retangoloPequeno">
-            <p class="fonte">Fonte: Daily Mail</p>
-        </div>
-        <img src="./imagens/logoDoWhatsapGrande.png" class="whhGrande" height="236" width="356"
-            alt="WhatsApp terá função de  pagamentos de 2020.">
-        <h1 class="whhTexto">WhatsApp terá função de<br> pagamentos de 2020.</h1>
-        <!--Texto que fica abaixo das imagens-->
-        <div class="retanguloPequeno2">
-            <p class="fonte2">Fonte:Proxxima</p>
-        </div>
-    </section>
+        <section class="container-noticias">
+            <article>
+                <figure>
+                    <img src="./imagens/logoNBA.png" alt="Petição para colocar Kobe">
+                    <figcaption>
+                        <h2>Petição para colocar Kobe <br>Bryant no logo da NBA.</h2>
+                    </figcaption>
+                    <small>Fonte: Daily Mail</small>
+                </figure>
+            </article>
+            <article>
+                <figure>
+                    <img src="./imagens/logoDoWhatsapGrande.png" alt="WhatsApp terá função de  pagamentos de 2020.">
+                    <figcaption>
+                        <h2>WhatsApp terá função de<br> pagamentos de 2020.</h2>
+                    </figcaption>
+                    <small>Fonte:Proxima</small>
+                </figure>
+            </article>
+        </section>
+
+    </main>
 
     <footer class="rodape">
-        <div class="RetanguloLaranja">
-            <img src="./imagens/logoAssinatura.png" class="logoAss">
-        </div>
+
+        <img src="./imagens/logoAssinatura.png" alt="logo do manda Trends">
         <div>
-            <p class="txtcopy">Copyrigth &reg; Madarin.Todos os direitos reservados.<br>
+            <p>Copyright &reg; Madarin.Todos os direitos reservados.<br>
                 Caso não deseje nossos e-mails,por favor <a href="#">Clique aqui</a>
             </p>
-
         </div>
     </footer>
 

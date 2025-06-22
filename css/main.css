@@ -1,0 +1,20 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./eventoPrincinpal.css");
+@import url("./noticias.css");
+@import url('./rodape.css');
+:root{
+    --gradiat-header:linear-gradient( to right, #E9492A 35%, #E83A3C 50% ,#E83344 ,#E72555 ,#E72357);
+    --rodape:#FC4C02;
+    --font-color:#CECECE;
+    --font-family:sans-serif;
+    --borda-gradiat-primaria:linear-gradient(#E3285B,#D03C64,#BD4678,#AF4C80);
+    --borda-gradiat-secundaria:linear-gradient( to right, #41B695 35%, #64BFB5 50% ,#456fbe ,#15a2d5 ,#1a21a1);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+.container-evento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container-evento img {
+    width: 80em;
+}
+
+.container-evento figure h2 {
+    font-size: 25px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    margin: 1em auto;
+}
+
+.container-evento figure p {
+    font-size: 18px;
+    font-family: var(--font-family);
+    margin: .7em auto;
+}
+
+.container-evento figure small {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    color: var(--font-color);
+    border-width: 18px;
+    border-bottom: solid;
+    border-image: var(--borda-gradiat-primaria)1;
+    padding: .2em 0;
+
+}
